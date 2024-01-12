@@ -21,8 +21,9 @@
 <img src="./image/mickeymouse.jpg" id="m" alt="m" class="imagechange">
 
 <h2>ラプンツェル</h2>
-<input type="button" value="画像変更" onclick="imgchange3();">
-<input type="button" value="元に戻す" onclick="imgchange4();">
-<img src="./image/3.jpg" id="san" alt="3" class="imagechange3">
+<form name="timer1">
+ <input type="button" value="元に戻る" onclick="page();setTimeout('page2()',3000);"><br>
+ <img src='./image/3.jpg' id="san" alt ="3" class ="imagechange3">
+ </form>
 </body>
 </html>
