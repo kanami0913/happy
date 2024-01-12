@@ -1,2 +1,6 @@
-function imgchange3() {document.getElementById('san').src = './image/4.jpeg';}
-function imgchange4() {document.getElementById('yon').src = './image/3.jpg';}
+function page() {
+    document.getElementById('san').src = './image/4.jpeg';
+}
+function page2() {
+    document.getElementById('san').src = './image/3.jpg';
+}
